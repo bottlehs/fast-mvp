@@ -1,7 +1,6 @@
 <template>
   <ion-page>
     <ion-tabs>
-      <ion-router-outlet />
       <ion-tab-bar slot="bottom">
         <ion-tab-button tab="tab1" href="/tabs/tab1">
           <ion-icon :icon="triangle" />
