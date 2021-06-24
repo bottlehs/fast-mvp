@@ -3,22 +3,33 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "serve-ionic-lab": "ionic serve -l",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-android-add": "ionic capacitor add android",
+    "build-ios-add": "ionic capacitor add ios",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@capacitor/android": "3.0.1",
+    "@capacitor/app": "1.0.1",
     "@capacitor/core": "3.0.1",
+    "@capacitor/haptics": "1.0.1",
+    "@capacitor/ios": "3.0.1",
+    "@capacitor/keyboard": "1.0.1",
+    "@capacitor/status-bar": "1.0.1",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
     "core-js": "^3.6.5",
+    "firebase": "^8.6.7",
     "vue": "^3.0.0-0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
     "@capacitor/cli": "3.0.1",
+    "@ionic/lab": "3.2.10",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
