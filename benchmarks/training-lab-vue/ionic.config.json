@@ -1,0 +1,7 @@
+{
+  "name": "training-lab-vue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
