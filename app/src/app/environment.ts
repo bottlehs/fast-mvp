@@ -10,9 +10,9 @@ export const FIREBASE_CONFIG = {
 };
 
 export const snapshotToArray = (snapshot: any) => {
-  let returnArray: any = []
+  const returnArray: any = []
   snapshot.forEach((element: any) => {
-      let item = element.val()
+      const item = element.val()
       item.key = element.key
       returnArray.push(item)
   });

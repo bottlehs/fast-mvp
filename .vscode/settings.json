@@ -1,0 +1,25 @@
+{
+	"editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "eslint.validate": [
+    "javascript",
+    {"autoFix": true, "language": "vue"},
+    "html"
+  ],
+  "eslint.workingDirectories": [
+    "./app",
+    "./admin"
+  ],
+}
