@@ -40,7 +40,17 @@ export default defineComponent({
       }
     }
 
-    QRScanner.prepare(onDone); // show the prompt
+    console.log(onDone);
+
+    alert('s')
+    let status = {};
+    try {
+      status = QRScanner.prepare();
+    }catch(e) {
+      console.log(e)
+    }
+
+    console.log(status);
   }
 });
 </script>
