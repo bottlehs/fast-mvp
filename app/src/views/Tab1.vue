@@ -11,7 +11,7 @@
           <ion-title size="large">Tab 1</ion-title>
         </ion-toolbar>
       </ion-header>
-      
+      <ion-button @click="() => router.push('/detail')">Go to detail</ion-button>
       <ExploreContainer name="Tab 1 page" />
     </ion-content>
   </ion-page>

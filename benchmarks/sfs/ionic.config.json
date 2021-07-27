@@ -1,0 +1,8 @@
+{
+  "name": "imenuapps",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "60201bf5"
+}
